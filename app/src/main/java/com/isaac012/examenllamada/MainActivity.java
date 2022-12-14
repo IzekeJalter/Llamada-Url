@@ -27,15 +27,12 @@ import org.json.JSONObject;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    TextView dataNu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         info();
-
-
     }
 
     private void info() {
