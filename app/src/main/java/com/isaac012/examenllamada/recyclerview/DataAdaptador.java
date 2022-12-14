@@ -48,8 +48,6 @@ public class DataAdaptador extends RecyclerView.Adapter<DataViewHolder> {
         holder.dataNumero.setText(data.getNumero());
         holder.dataUrl.setText(data.getUrl());
 //        Picasso.get().load(data.getImage()).into(holder.dataImage);
-//        Picasso.get().load()
-//        Picasso.get().load(position, "https://thispersondoesnotexist.com")
 
         holder.dataUrl.setOnClickListener(new View.OnClickListener() {
             @Override

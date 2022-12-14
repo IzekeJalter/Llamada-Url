@@ -12,7 +12,6 @@ import com.isaac012.examenllamada.R;
 
 public class DataViewHolder extends RecyclerView.ViewHolder {
     TextView dataName, dataNumero, dataUrl;
-//    ImageView dataImage;
     LinearLayout dataListContainer;
 
 
@@ -21,7 +20,6 @@ public class DataViewHolder extends RecyclerView.ViewHolder {
         dataName = v.findViewById(R.id.dataName);
         dataNumero = v.findViewById(R.id.dataNumero);
         dataUrl = v.findViewById(R.id.dataUrl);
-//        dataImage = v.findViewById(R.id.dataImage);
         dataListContainer = v.findViewById(R.id.dataListContainer);
     }
 }

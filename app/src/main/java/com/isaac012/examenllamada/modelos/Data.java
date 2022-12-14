@@ -34,8 +34,4 @@ public class Data {
     public void setUrl(String url) {
         this.url = url;
     }
-
-//    public String getImage(){
-//        return "https://thispersondoesnotexist.com";
-//    }
 }
